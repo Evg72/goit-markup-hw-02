@@ -1,6 +1,6 @@
 /* цвет основного текста #212121; */
 /* вторичный цвет текста #757575;*/
-/* белый #e5e5e5;*/
+/* белый #FFFFFF*/
 /* вторичный цвет фона F5F4FA*/
 /* акцент #2196F3*/
 
@@ -8,7 +8,7 @@
   --primary-text-color: #212121;
   --title-text-color: #212121;
   --accent-color: #2196f3;
-  --primary-white-color: #e5e5e5;
+  --primary-white-color: #ffffff;
 }
 
 body {
@@ -17,7 +17,7 @@ body {
 
   font-family: Roboto, sans-serif;
 }
-
+/*Секція хедер*/
 ul {
   list-style: none;
 }
@@ -28,28 +28,11 @@ ul {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 .title {
   color: var(--accent-color);
-  font-family: "Raleway";
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-}
-
-.section-title {
-}
-
-.section-text {
-  font-family: "Roboto";
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36x;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: ;
 }
 
 .cursor-pointer {
@@ -68,8 +51,70 @@ ul {
   color: #2196f3;
 }
 
+/* Секция уникальный контент*/
+.section-title .section-text {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #2f303a;
+}
+/*Секция особенности*/
+.section-list .text {
+  font-style: 400;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: #212121;
+}
+.section-list .work {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #757575;
+}
+/*Секция Чем мы занимаемся*/
+.work-list .work,
+.tims .work {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+/*Команда*/
+.tims {
+  background: #f5f4fa;
+}
+
+/*Футер*/
+.futer {
+  background-color: #212121;
+}
+.logo .color {
+  color: #ffffff;
+}
 /* Address list */
 .address .link:hover,
 .address .link:focus {
   color: #2196f3;
+}
+/*Портфолио*/
+.cont-work .work-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.cont-work .text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
