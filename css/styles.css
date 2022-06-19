@@ -177,6 +177,7 @@ a {
 }
 
 /*Футер*/
+
 .futer {
   background-color: #212121;
 }
@@ -189,6 +190,7 @@ a {
   letter-spacing: 0.03em;
   color: #ffffff;
 }
+
 /* Address list  */
 a {
   font-style: normal;
@@ -199,9 +201,25 @@ a {
 .address .link:focus {
   color: #2196f3;
 }
-.address .color {
+.futer .link {
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 1.71;
+  align: Left;
+  vertical-align: Top;
+  letter-spacing: 3%;
+}
+
+.futer .text {
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 1.71;
+  align: Left;
+  vertical-align: Top;
+  letter-spacing: 3%;
   color: #ffffff;
 }
+
 /*Портфолио*/
 .cont-work .work-title {
   font-weight: 700;
